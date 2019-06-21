@@ -4,9 +4,9 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "navigationBarTitleText": "菠萝园",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#2aa515",
+    "navigationBarTitleText": "智慧农场",
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json"
 }
