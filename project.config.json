@@ -10,8 +10,9 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wxbb92ec4b66f5656d",
-	"projectname": "jump",
-	"isGameTourist": false,
+	"projectname": "test",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -19,10 +20,6 @@
 		},
 		"conversation": {
 			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
