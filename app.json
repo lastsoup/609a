@@ -1,11 +1,11 @@
 {
   "pages": [
-    "index/index"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#2aa515",
-    "navigationBarTitleText": "智慧农场",
+    "navigationBarTitleText": "授权登录",
     "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json"

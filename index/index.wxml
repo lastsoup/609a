@@ -1,2 +1,0 @@
-<!--index/index.wxml-->
-<web-view src="https://abc.kaoshicat.com/index.htm?version={{version}}"></web-view>
