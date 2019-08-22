@@ -16,4 +16,5 @@
     <view wx:else>请升级微信版本</view>
 </view>
 
- <web-view wx:else src="https://abc.kaoshicat.com/index.htm?version={{version}}"></web-view>
+ <!-- <web-view wx:else src="https://abc.kaoshicat.com/index.htm?version={{version}}&code={{code}}&nickName={{nickName}}&avatarUrl={{avatarUrl}}"></web-view> -->
+ <web-view wx:else src="{{websrc}}"></web-view>
