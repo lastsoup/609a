@@ -7,7 +7,7 @@ Page({
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
         isHide: false,
         isLocation:true,
-      src:'https://www.iyuan.work/index.htm',
+      src:'https://www.iyuan.work/app/index.htm',
         websrc:''
     },
     onLoad: function() {
