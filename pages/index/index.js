@@ -7,6 +7,7 @@ Page({
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
         isHide: false,
         isLocation:true,
+      src:'https://www.iyuan.work/index.htm',
         websrc:''
     },
     onLoad: function() {
@@ -217,7 +218,7 @@ Page({
           var x = location.x;
           var y = location.y; 
           //传递给webview网页
-          var url = 'https://cqy.kaoshicat.com/index.htm?version=' + (new Date()).valueOf() + '&code=' + res.code + '&avatarUrl=' + avatarUrl + '&nickName=' + nickName +'&city='+city+'&addr='+addr+"&x="+x+"&y="+y;
+          var url = that.data.src+'?version=' + (new Date()).valueOf() + '&code=' + res.code + '&avatarUrl=' + avatarUrl + '&nickName=' + nickName +'&city='+city+'&addr='+addr+"&x="+x+"&y="+y;
           console.log(url);
           that.setData({
             websrc: url
